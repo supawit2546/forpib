@@ -37,6 +37,6 @@ readdirSync('./Routes')
 app.get('/', (req,res) => {
     res.send('Hello api')
 })
-app.listen(5000, () => {
+app.listen(3000, () => {
     console.log("Server is Running 5000")
 })
